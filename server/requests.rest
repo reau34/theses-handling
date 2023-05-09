@@ -1,0 +1,11 @@
+GET http://localhost:3001/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.b21lQGdtYWlsLmNvbQ.gh8f2Aw7R3W5O2AYFsODZwpIlYbk0QEdeZO6tlzqOmU
+###
+
+POST http://localhost:3001/login
+Content-Type: application/json
+
+{
+    "email":"ome@gmail.com",
+    "password":"daniel"
+}

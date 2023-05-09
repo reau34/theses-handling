@@ -1,0 +1,40 @@
+.reservation-button{
+    background: none;
+    border:none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.reservation-button:hover{
+    opacity: 0.8;
+}
+.approve-button{
+    background-color: #43DE76;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.approve-button:hover{
+    opacity: 0.8;
+}
+
+.reject-button{
+    background-color: #D61549;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.reject-button:hover{
+    opacity: 0.8;
+}
+
+.center-align{
+    text-align:center;
+}

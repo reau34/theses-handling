@@ -1,0 +1,132 @@
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    width: auto;
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.content-table thead tr {
+    background-color: #007798;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.pag-button{
+    padding: 12px;
+    border-radius: 15px;
+    background-color:#007798;
+    color: #ffffff;
+    height: 40px;
+    width: 90px;
+    text-align: center;
+    font-size:14px;
+    margin-right: 20px;
+    font-weight: bold;
+    border: 0px;
+}
+.student{
+    padding: 12px;
+    border-radius: 15px;
+    background-color:#007798;
+    color: #ffffff;
+    height: 40px;
+    width: 260px;
+    text-align: center;
+    font-size:14px;
+    margin-right: 20px;
+    font-weight: bold;
+    border: 0px;
+}
+.student:hover{
+    opacity: 0.8;
+}
+.pag-button :disabled,
+.pag-button[disabled]{
+    background-color: #cccccc;
+    border: 0px;
+    color: #666666;
+    cursor:not-allowed;
+}
+.pag-button:hover{
+    opacity: 0.8;
+}
+
+.background{
+    background-color: #686868;
+}
+
+
+.input{
+    border-radius: 15px;
+    font-size:15px;
+    border-color:#007798;
+}
+
+
+.sort-button{
+    background: none;
+    border: none;
+    color: white;
+}
+
+.sort-button:hover{
+    opacity: 0.8;
+}
+
+.form{
+    font-size: 16px;
+    background-color:#007798;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    width: 320px;
+    margin:10px;
+}
+
+.form-button{
+    font-size: 16px;
+    border-radius: 5px;
+    background-color:#007798;
+    color:white;
+    border: none;
+    width: 120px;
+    height: 30px;
+}
+.form-button:hover{
+    opacity: 0.8;
+}
+
+.confirm-button{
+    border-radius: 5px;
+    color:inherit;
+    border-color: #007798;
+}
+
+.confirm-button:hover{
+    opacity: 0.8;
+}
+
+.download-button{
+    border-radius: 5px;
+    color:inherit;
+    border-color: #007798;
+}
+
+
+
+
